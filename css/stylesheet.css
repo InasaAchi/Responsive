@@ -3,7 +3,7 @@
 html {
     font-family: 'Roboto';
     font-weight: 400;
-    size: 16px;
+    font-size: 16px;
 }
 
 .section {
@@ -87,4 +87,49 @@ html {
     margin: 14px;
 }
 
+/* || bellow header section class */
 
+.bellow--header div h1 span{
+    display: block;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.bellow--header div h1 {
+    margin-bottom: 16px;
+}
+
+.bellow--header {
+    margin-top: 240px;
+}
+
+.bellow--header div span {
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.bellow--header-button1 {
+    margin-top: 16px;
+    background: #475F45;
+    padding: 20px 40px 20px 40px;
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+
+.bellow--header-button {
+    border: 2px solid #475F45;
+    padding: 20px 40px 20px 40px;
+    background: #FFFFFF;
+}
+
+.bellow--header-img {
+    margin-top: 65px;
+    margin-right: 120px;
+}
